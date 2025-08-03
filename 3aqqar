@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نصائح شراء شقة آمنة</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #f4f4f4; color: #333; margin: 0; padding: 0; line-height: 1.6; }
+        header { background-color: #007bff; color: white; text-align: center; padding: 20px; }
+        nav { background-color: #0056b3; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .accordion { background-color: #e9ecef; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: right; outline: none; transition: 0.4s; font-size: 18px; }
+        .accordion:hover { background-color: #ccc; }
+        .panel { padding: 0 18px; display: none; background-color: white; overflow: hidden; transition: max-height 0.2s ease-out; }
+        #search { width: 100%; padding: 10px; margin-bottom: 20px; font-size: 16px; }
+        footer { background-color: #007bff; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        .share-btn { background: #28a745; color: white; padding: 10px; border: none; cursor: pointer; margin: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>نصائح شراء شقة آمنة</h1>
+        <p>دليل تفاعلي لتجنب المشاكل عند شراء شقة في مصر</p>
+    </header>
+    
+    <nav>
+        <a href="#general">نصائح عامة</a>
+        <a href="#important">المهم بقى</a>
+        <a href="#installments">لو هتشتري بالقسط</a>
+        <a href="#must">لاااازم</a>
+        <a href="#rights">حقك جداً</a>
+        <a href="#extra">نصائح إضافية</a>
+    </nav>
+    
+    <div class="container">
+        <input type="text" id="search" placeholder="ابحث عن نصيحة (مثل: عقد أو محامي)" onkeyup="searchContent()">
+        
+        <section id="general">
+            <button class="accordion">نصائح عامة عند شراء شقة</button>
+            <div class="panel">
+                <p>لما تيجي تشتري شقه - حاول تروح الشقة مرتين مرة الصبح ومرة بالليل.</p>
+                <p>طول في المعاينة على قد ماتقدر وسيب الباب مفتوح. (لو الشقة عليها مشاكل..العصفورة هتبلغ انها اتفتحت )</p>
+                <p>مافيش بائع هيعرفك بعد ماياخد كل فلوسه.</p>
+                <p>لازم تبقى جزء من قيمة الشقة  لو فيه اى حاجه ناقصة.</p>
+                <p>الشقة اللى مافيش فيها عداد كهرباء .. ماتاخدهاش.</p>
+                <p>التوكيل بالبيع لوحده مش كفاية..لازم عقد بيع.</p>
+                <p>مش لازم خالص توقيع شهود على العقد.</p>
+                <p>لو هتخلص ثمن الشقه لازم تستلمها فى نفس يوم دفع الفلوس.</p>
+                <p>لازم تكون عارف ومتأكد انك انت واسرتك هتعرفوا تعيشوا في المكان ده ومع نفس الجيران دول وان ولادك كل يوم هيمشوا من الشارع ده او قدامهم او تحتهم المحل ده لازم تعرف هتعيش فين عشان متشتريش وتندم</p>
+            </div>
+        </section>
+        
+        <section id="important">
+            <button class="accordion">#المهم_بقى</button>
+            <div class="panel">
+                <p>☆ ماتشتريش من وكيل عن صاحب الشقة بتوكيل عام الا اذا كنت عارفهم كويس جدا.</p>
+                <p>☆ صاحب الشقة يعملك توكيل خاص بالبيع حتى لو مسافر.</p>
+                <p>☆ لو البائع فوق ٦٥ سنه ولاده يوقعوا شهود على العقد.</p>
+                <p>☆ لو هتشترى من ورثة لازم كل الورثة يوقعوا على العقد  لو حد من الورثه قاصر لازم الوصى عليه هو اللى يوقع عنه ولازم يطلع قرار بموافقة النيابة الحسبية على البيع .</p>
+                <p>☆ لازم التوقيع على كل صفحات العقد.</p>
+                <p>☆ لازم التوقيع يكون امامك مافيش توقيع مسبق.</p>
+                <p>☆ اوعي تسيب اي فراغات فى نسختين العقد ويفضل العقد يكو من ثلاث نسخ.</p>
+                <p>☆ ممنوع اي تعديل بخط الأيد فى العقد.</p>
+                <p>☆ الأفضل ان العقد كله يكون مكتوب كمبيوتر.</p>
+            </div>
+        </section>
+        
+        <section id="installments">
+            <button class="accordion">#لو_هتشترى_بالقسط</button>
+            <div class="panel">
+                <p>اوعي تمضى على إيصالات امانه، أكتب الاقساط فى العقد [ القيمة وميعاد القسط ].</p>
+            </div>
+        </section>
+        
+        <section id="must">
+            <button class="accordion">#لااااااااازم</button>
+            <div class="panel">
+                <p>تشوف زوجة المالك حقك جداً .. احسن يكون مطلقها ومعاها قرار تمكين</p>
+            </div>
+        </section>
+        
+        <section id="rights">
+            <button class="accordion">#حقك_جداً</button>
+            <div class="panel">
+                <p>انك تدخل لجار واتنين فى العماره، وتسألهم عن الشقة المهم تديهم الأمان وفهمهم ان الكلام بينكم سر .. علشان يقولوا الصراحة</p>
+            </div>
+        </section>
+        
+        <section id="extra">
+            <button class="accordion">نصائح إضافية وضرورية</button>
+            <div class="panel">
+                <p>يبقي مهم وانت بتشتري شقة لازم تتأكد من سند ملكية البائع وتسلسل الملكية حتى آخر مشتري وكمان عقد للأرض سواء عرفى أو مسجل وتتأكد من صحته</p>
+                <p>تكتب عقد يضمن الثمن وبنود تضمن حقك وشرط جزائي وتوكيل في الشهر العقاري بالبيع للنفس أو للغير والتنازل للنفس أو للغير ولكافة التصرفات الناقلة للملكية امام كافة الجهات والمصالح الحكومية ومصلحة الشهر العقاري والتوقيع علي عقود البيع الابتدائية والنهائية</p>
+                <p>وفي كافة اجراءات التعامل مع الكهرباء والمياه والتليفون والضرائب العقارية والغاز الطبيعي والتعاقد ورفع وتركيب والتنازل عن عدادات هذه المرافق</p>
+                <p>ولا يحق لأي من الطرفين إلغاء هذا التوكيل إلا بحضور الطرفين ويسري هذا التوكيل في حالة الوفاه .</p>
+                <p>#ضرورى_جداً يكون معاك محامى ثقة  بلاش تستخسر وتوفر اتعاب المحامى .. وجود المحامى هيأمنك ويمنع عنك بلاوى كتير  دور المحامى مهم علشان يتأكد من صحة مستندات الملكية وتسلسل العقود ويتأكد ان الشقة مفيش عليها اي مشاكل.</p>
+                <p>والله الموفق</p>
+            </div>
+        </section>
+        
+        <button class="share-btn" onclick="shareOnFacebook()">مشاركة على فيسبوك</button>
+        <button class="share-btn" onclick="shareOnTwitter()">مشاركة على تويتر</button>
+    </div>
+    
+    <footer>
+        <p>مع تحياتي للجميع@</p>
+    </footer>
+
+    <script>
+        // Accordion Functionality
+        var acc = document.getElementsByClassName("accordion");
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+        // Search Functionality
+        function searchContent() {
+            var input = document.getElementById("search").value.toLowerCase();
+            var panels = document.getElementsByClassName("panel");
+            for (var i = 0; i < panels.length; i++) {
+                var text = panels[i].textContent.toLowerCase();
+                if (text.includes(input)) {
+                    panels[i].style.display = "block";
+                    panels[i].previousElementSibling.classList.add("active");
+                } else {
+                    panels[i].style.display = "none";
+                    panels[i].previousElementSibling.classList.remove("active");
+                }
+            }
+        }
+
+        // Share Functions (Dummy - Replace with real APIs if needed)
+        function shareOnFacebook() { alert("مشاركة على فيسبوك: رابط الموقع هنا!"); }
+        function shareOnTwitter() { alert("مشاركة على تويتر: رابط الموقع هنا!"); }
+    </script>
+</body>
+</html>
